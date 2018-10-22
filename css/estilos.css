@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Overlock');
+@import url('https://fonts.googleapis.com/css?family=Playball');
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+  background-color: #fefdff;
+  font-family: 'Overlock', cursive;
+ color: #061726;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Playball', cursive;
+}
+header {
+  background-color:#db162f;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+}
+header > h1{
+  color: #061726;
+  width: 22%;
+  margin-left: 10%;
+  float: left;
+  line-height: 1.5;
+  font-size: 3em;
+  text-shadow: -3px -1px 22px rgba(152, 149, 142, 0.8);
+}
+
+header > h1 > img{
+  float: left;
+  width: 20%;
+  height:55px;
+ margin-top: 10px;
+}
+header > nav {
+  width: 55%;
+  margin-left: 5.2%;
+  display: inline-block;
+}
+header > nav > ul > li {
+  width: 20%;
+  display: inline-block;
+  margin-left: -4px;
+  list-style: none;
+  line-height: 3.2;
+  text-align: center;
+  font-weight: bold;
+}
+header > nav > ul > li > a{
+  color: #061726;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+section {
+  min-height: 500px;
+
+}
+section#inicio{
+  height: 90vh;
+  background-color: purple;
+  background-image: url(../img/header.jpg);
+
+  background-size: 100% 100%;
+ padding-top: 70px;
+
+}
+section#inicio > h2{
+  text-align: center;
+  color: #061726;
+  font-size: 5rem;
+
+  margin-top: 200px;
+  float: left;
+  width: 100%;
+  text-shadow: -3px -1px 22px rgba(152, 149, 142, 0.8);
+}
+section#inicio > h3{
+  font-family: 'Overlock', cursive;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #061726;
+  text-shadow: -3px -1px 22px rgba(152, 149, 142, 0.8);
+}
+section#inicio > a.informacion{
+  
+  font-size: 1.2rem;
+  display: block;
+  width: 150px;
+  height: 28px;
+  text-decoration: none;
+  border: 2px solid #061726;
+  text-align: center;
+  margin: 10px auto; /*centrar caja en automatico*/
+  padding: 3px;
+  background-color:#061726;
+    color:white;
+
+}
+
+section#inicio > a:last-child {
+  color: #061726;
+  font-size: 3rem;
+  display: block;
+  margin-left: 49%;
+  width: 2%;
+  height: 30px;
+
+}
+section#quees .div1{
+  width: 40%;
+  float: left;
+    margin-left: 10%;
+margin-top: 1%;
+color: #061726;
+
+
+}
+section#quees .div1 > img{
+  width: 98%;
+  height: 255px;
+
+}
+
+section#quees .div1 > h3{
+ font-size: 2rem;
+ text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+
+}
+section#quees .div1 > p {
+ font-size: 1rem;
+ font-weight: bold;
+ text-align: justify;
+}
+section#quees .div2{
+  width: 40%;
+  float: left;
+  margin-right: 10%;
+  line-height: 1;
+  text-align: center;
+  margin-top: 10px;
+  color: #061726;
+
+}
+section#quees .div2 > h3 {
+  font-size: 3rem;
+  font-family: 'Overlock', cursive;
+  text-align: left;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+
+}
+section#quees .div2 > h2 {
+  font-size: 2rem;
+  font-family: 'Coda Caption', sans-serif;
+  text-align: left;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+  line-height: 1;
+
+}
+section#quees .div2 > p{
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.3;
+}
+section#quees .div2 > img{
+width: 98%;
+  height: 300px;
+  
+
+}
+
+section#servicios{
+  background-color: #061726;
+}
+section#servicios > h2{
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  font-family: 'Playball', cursive;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+}
+.servicios {
+  width: 18%;
+  margin-left: 1.66%;
+  background-color: white;
+  min-height: 320px;
+  margin-top: 10px;
+  float:left;
+  text-align: center;
+  overflow: hidden;
+}
+
+.servicios > img {
+  width: 90%;
+  height: 120px;
+  margin-top: 10px;
+
+}
+ .servicios > p{
+  text-align: center;
+  color:  #061726;
+  
+}
+.servicios > h3{
+  font-size: 2.4rem;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+  text-align: center;
+  color:  #061726;
+}
+.servicios > a {
+  background-color: #061726;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  line-height: 3;
+  width: 150px;
+  height: 50px;
+
+
+}
+.servicios > .anim {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  margin-top: -250px;
+  height: 250px;
+
+}
+section#somos {
+
+    background-size: 100% auto;
+    min-height: 400px;
+}
+
+section#somos .quienes {
+  width: 25%;
+  margin-left: 10%;
+  border: .5px solid #db162f;
+  float: left;
+
+  min-height: 280px;
+  margin-top: 5%;
+background-color: #db162f ;
+  opacity: 0.7;
+}
+section#somos .mision {
+  width: 25%;
+  margin-left: 2%;
+  border: .5px solid #db162f;
+  float: left;
+  line-height: 1;
+  min-height: 280px;
+  margin-top: 5%;
+background-color: #db162f ;
+  opacity: 0.7;
+}
+section#somos .vision {
+  margin-top: 5%;
+  width: 25%;
+  margin-right: 10%;
+  margin-left:  2%;
+  border: .5px solid #db162f;
+  float: left;
+
+  min-height: 280px;
+  background-color: #db162f ;
+  opacity: 0.7;
+}
+
+section#somos .quienes> h3, .mision > h3,.vision > h3{
+  font-size: 2.2rem;
+  color: #061726;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+  text-align: center;
+  margin-top: 2%;
+
+}
+section#somos .quienes > p, .mision > p,  .vision > p {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+  text-align: justify;
+  font-weight: bold;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+section#contacto{
+  background-color: #061726;
+}
+section#contacto > h3{
+  font-size: 2.6rem;
+  color: white;
+ text-shadow: 4px 2px 6px rgba(149, 150, 150, 0.39);
+ text-align: center;
+ line-height: 2;
+}
+section#contacto .formulario {
+    width: 40%;
+    float: left;
+    
+    margin-left: 10%;
+}
+section#contacto .mapa{
+    width: 40%;
+    float: left;
+    
+    margin-left: 5%;
+}
+section#contacto .mapa > p{
+   font-size: 1.5rem;
+   line-height: 1.6;
+   color:white ;
+
+}
+
+section#contacto .formulario form{
+    padding: 20px;
+    
+    background-color: white;
+
+}
+section#contacto .formulario form h2{
+    font-size: 1.5rem;
+    color: #061726;
+     font-family: 'Overlock', cursive;
+font-weight: bold;
+}
+section#contacto .formulario form fieldset{
+    margin-top: 10px;
+    border:none;
+   }
+section#contacto .formulario form fieldset label{
+    display: block;
+    width: 100%;
+     font-family: 'Overlock', cursive;
+    font-size: 1rem;
+    line-height: 2;
+    
+}
+section#contacto .formulario form fieldset input[type="text"],
+section#contacto .formulario form fieldset textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border: 1px solid #061726;
+    background-color: white;
+    color:#061726;
+    outline-color: #db162f;
+
+}
+section#contacto .formulario form fieldset textarea{
+    height: 100px;
+    resize: none;
+
+}
+section#contacto .formulario form fieldset input[type="submit"]{
+    background-color:#061726;
+    color:white;
+    width: 140px;
+    height: 30px;
+    border: none;
+    font-family: 'Overlock', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+}
